@@ -1,0 +1,162 @@
+#title{
+    background-color: #291e40;
+    padding: 3% 15% 10% 15%;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat";
+}
+html body{
+    background-color: #ab9a89;
+}
+a.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.svg-inline--fa{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.title-image{
+    border: 2px solid white;
+    border-radius: 2%;
+    width: 100%;
+}
+div.divtop{
+    margin: auto;
+    font-size: 4.5rem;
+}
+div.divtop h1{
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 3%;
+}    
+
+/* section estados */
+
+.section-estados{
+    background-color: white;
+    margin: 3% 15%;
+    margin-top: -5%;
+    padding-top: 3%;
+    border-radius: 30px;
+    border: 0.5px solid black;
+}
+
+.title-estados h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 4em;
+}
+
+#card-candidatos{
+    text-align: center;
+    margin: 3%;
+    padding:2%;
+}
+#card-candidatos .card{
+    margin: 6% 3%;
+    border: 2px solid #291e40;
+}
+
+#card-candidatos .card-header{
+    border-bottom: 2px solid #291e40;
+    background-color: #291e40;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "ubumtu";
+}
+
+#card-candidatos img{
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+}
+#card-candidatos .btn{
+    margin: 10px;
+    background-color: #291e40;
+    border: 2px solid #291e40;
+}
+/* footer */
+#footer{
+    background-color: #291e40;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 8%;
+    margin-top: -8%;
+    position: absolute;
+    z-index: -1;
+    padding-bottom: 2%;
+}
+
+/* media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title-image{
+        display: none;
+    }
+    div.divtop a{
+        display: none;
+    }
+    div.divtop h1{
+        font-size: 1.3rem;
+        margin: 10% 3%;
+    }
+    #title{
+        padding: 30px 0;
+    }
+    a.navbar-brand{
+        font-family: 'ubuntu';
+        font-size: 1rem;
+        font-weight: bold;
+    
+    }
+    .title-estados h2{
+        text-align: center;
+        padding: 10px;
+        font-size: 3em;
+    }
+    .section-estados{
+        margin: 3% 3%;
+        margin-top: -5%;
+        padding-top: 3%;
+    }
+    #card-candidatos{
+        text-align: center;
+        margin: 0%;
+        padding:0%;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .section-estados{
+        margin: 3% 3%;
+        margin-top: -5%;
+        padding-top: 3%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .section-estados{
+        margin: 3% 3%;
+        margin-top: -5%;
+        padding-top: 3%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .section-estados{
+        margin: 3% 3%;
+        margin-top: -5%;
+        padding-top: 3%;
+    }
+}
